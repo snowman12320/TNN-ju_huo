@@ -45,7 +45,7 @@
   --bs-qopink: #c488a4;
   --bs-qoblue: #2cbbf5;
   --bs-fb: #0d6efd;
-  --bs-line: #3cd52e;
+  --bs-line: #06c152;
   --bs-min_nav: #999;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -62,7 +62,7 @@
   --bs-qopink-rgb: 196, 136, 164;
   --bs-qoblue-rgb: 44, 187, 245;
   --bs-fb-rgb: 13, 110, 253;
-  --bs-line-rgb: 60, 213, 46;
+  --bs-line-rgb: 6, 193, 82;
   --bs-min_nav-rgb: 153, 153, 153;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -3321,19 +3321,19 @@ textarea.form-control-lg {
 
 .btn-line {
   --bs-btn-color: #000;
-  --bs-btn-bg: #3cd52e;
-  --bs-btn-border-color: #3cd52e;
+  --bs-btn-bg: #06c152;
+  --bs-btn-border-color: #06c152;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #59db4d;
-  --bs-btn-hover-border-color: #50d943;
-  --bs-btn-focus-shadow-rgb: 51, 181, 39;
+  --bs-btn-hover-bg: #2bca6c;
+  --bs-btn-hover-border-color: #1fc763;
+  --bs-btn-focus-shadow-rgb: 5, 164, 70;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #63dd58;
-  --bs-btn-active-border-color: #50d943;
+  --bs-btn-active-bg: #38cd75;
+  --bs-btn-active-border-color: #1fc763;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #3cd52e;
-  --bs-btn-disabled-border-color: #3cd52e;
+  --bs-btn-disabled-bg: #06c152;
+  --bs-btn-disabled-border-color: #06c152;
 }
 
 .btn-min_nav {
@@ -3609,19 +3609,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-line {
-  --bs-btn-color: #3cd52e;
-  --bs-btn-border-color: #3cd52e;
+  --bs-btn-color: #06c152;
+  --bs-btn-border-color: #06c152;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #3cd52e;
-  --bs-btn-hover-border-color: #3cd52e;
-  --bs-btn-focus-shadow-rgb: 60, 213, 46;
+  --bs-btn-hover-bg: #06c152;
+  --bs-btn-hover-border-color: #06c152;
+  --bs-btn-focus-shadow-rgb: 6, 193, 82;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #3cd52e;
-  --bs-btn-active-border-color: #3cd52e;
+  --bs-btn-active-bg: #06c152;
+  --bs-btn-active-border-color: #06c152;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #3cd52e;
+  --bs-btn-disabled-color: #06c152;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #3cd52e;
+  --bs-btn-disabled-border-color: #06c152;
   --bs-gradient: none;
 }
 
@@ -5318,12 +5318,12 @@ textarea.form-control-lg {
 }
 
 .alert-line {
-  --bs-alert-color: #185512;
-  --bs-alert-bg: #d8f7d5;
-  --bs-alert-border-color: #c5f2c0;
+  --bs-alert-color: #047431;
+  --bs-alert-bg: #cdf3dc;
+  --bs-alert-border-color: #b4eccb;
 }
 .alert-line .alert-link {
-  color: #13440e;
+  color: #035d27;
 }
 
 .alert-min_nav {
@@ -5846,17 +5846,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-line {
-  color: #185512;
-  background-color: #d8f7d5;
+  color: #047431;
+  background-color: #cdf3dc;
 }
 .list-group-item-line.list-group-item-action:hover, .list-group-item-line.list-group-item-action:focus {
-  color: #185512;
-  background-color: #c2dec0;
+  color: #047431;
+  background-color: #b9dbc6;
 }
 .list-group-item-line.list-group-item-action.active {
   color: #fff;
-  background-color: #185512;
-  border-color: #185512;
+  background-color: #047431;
+  border-color: #047431;
 }
 
 .list-group-item-min_nav {
@@ -7507,7 +7507,7 @@ textarea.form-control-lg {
 
 .text-bg-line {
   color: #000 !important;
-  background-color: RGBA(60, 213, 46, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(6, 193, 82, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-min_nav {
@@ -7621,10 +7621,10 @@ textarea.form-control-lg {
 }
 
 .link-line {
-  color: #3cd52e !important;
+  color: #06c152 !important;
 }
 .link-line:hover, .link-line:focus {
-  color: #63dd58 !important;
+  color: #38cd75 !important;
 }
 
 .link-min_nav {
@@ -14039,7 +14039,22 @@ textarea.form-control-lg {
     width: 25%;
   }
 }
-* {
+footer h3, footer .h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer ul li:last-child {
+  margin-bottom: 30px;
+}
+footer li {
+  padding-bottom: 0px;
+}
+footer a {
+  font-size: 14px;
+}
+
+*, a {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;

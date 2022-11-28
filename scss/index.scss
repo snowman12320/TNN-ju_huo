@@ -64,14 +64,14 @@
 // 支援
 @import "./function";
 // pages
-@import "./navbar";
+@import "./layout";
 // @import "./login";
 // @import "./products";
 // @import "./product";
 // @import "./cart";
 // @import "./member";
 
-* {
+*,a{
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
