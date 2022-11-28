@@ -1,0 +1,31 @@
+.accordion_cart {
+  background-color: #fff;
+}
+.accordion-button_cart {
+  color: $qopink;
+  &:not(.collapsed) {
+    color: $qopink;
+  }
+  &::after {
+    display: none;
+  }
+}
+
+.table_overflow {
+  overflow-x: auto;
+}
+@include maxpc() {
+  form {
+    width: 100% !important;
+  }
+}
+[type="radio"] {
+  &:checked ~ div {
+    display: block !important;
+  }
+}
+@include maxphone() {
+  .product_img_rwd {
+    display: none;
+  }
+}

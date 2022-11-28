@@ -1,0 +1,32 @@
+.pagination-container {
+  text-align: center;
+}
+.pagination-container nav {
+  display: inline-block;
+}
+.pagination-container nav ul {
+  margin: 20px 0;
+}
+.pagination-container .page-item a {
+  color: $dark;
+}
+.pagination-container .page-item a:hover {
+  background: $dark;
+  color: $white;
+}
+.pagination-container .page-item.active a.page-link {
+  background: $dark;
+  color: $white;
+  border-color: $dark;
+}
+
+.img_hover {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.img_ori:hover {
+  // display: none;
+}
+.img_ori:hover ~ .img_hover {
+  display: block;
+}

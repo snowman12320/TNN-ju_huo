@@ -1,0 +1,109 @@
+.arrow_path::after {
+  content: ">";
+  color: $qopink;
+  margin-left: 15px;
+}
+.flex-prev {
+  height: 58px !important;
+}
+.flex-next {
+  height: 58px !important;
+}
+@include maxphone() {
+  .flexslider {
+    width: 300px !important;
+    height: 250px !important;
+  }
+  .slides img {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+//
+@include maxphone() {
+  .product_navbar {
+    font-size: 16px;
+  }
+}
+
+// shopcart num
+.wraper_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.wraper_btn span {
+  color: $qopink;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.wraper_btn span.mines {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.wraper_btn span.plus {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.middle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@include maxpad() {
+  .wraper_btn {
+    width: 50% !important;
+    margin: 0 auto;
+  }
+}
+
+//favorite btn
+.like-button {
+  cursor: pointer;
+  border: 2px solid $gray-500;
+  border-radius: 40px;
+  padding: 0.45rem 0.75rem;
+  color: darken($gray-500, 25%);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.25s $qopink;
+  user-select: none;
+}
+.liked {
+  color: $white !important;
+  background-color: $qopink !important;
+}
+.like-button:hover {
+  background-color: $qopink;
+  color: $white;
+}
+@include maxpad() {
+  .like-button {
+    width: 50% !important;
+    margin: 0 auto;
+  }
+}
+.add_cart:hover {
+  background-color: $qopink;
+  color: $white !important;
+}
+.add_buy:hover {
+  background-color: var(--bs-btn-active-bg) !important;
+  color: $qopink !important;
+}
+
+.color_btn.active {
+  color: $qopink;
+  background-color: $white;
+}
+
+.intro {
+  color: $qopink;
+}
