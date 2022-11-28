@@ -14028,6 +14028,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-collapse a {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 1040px) {
+  .navbar-collapse li:last-child {
+    width: 25%;
+  }
+}
 * {
   box-sizing: border-box;
   text-decoration: none;

@@ -1,0 +1,15 @@
+.navbar{
+    // height:77px !important;
+}
+.navbar-collapse{
+    a{
+        text-align: center;
+        color:black;
+        font-weight: 500;
+    }
+}
+@include maxpc(){
+    .navbar-collapse li:last-child{
+        width: 25%;
+    }
+}
