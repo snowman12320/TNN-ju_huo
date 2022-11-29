@@ -63,6 +63,8 @@
 @import "./lightbox.min.css"; //透過 npm 安裝 Lightbox 後，將 lightbox.min.js、lightbox.min.css 及 lightbox 圖片直接複製到其他資料夾，再引入使用
 // 支援
 @import "./function";
+//components
+@import "./components/liner_gradient";
 // pages
 @import "./layout";
 // @import "./login";

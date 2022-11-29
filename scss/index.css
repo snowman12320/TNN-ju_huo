@@ -40,7 +40,6 @@
   --bs-dark: #6c757d;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-black: #000;
   --bs-white: #fff;
   --bs-qopink: #c488a4;
   --bs-qoblue: #2cbbf5;
@@ -57,7 +56,6 @@
   --bs-dark-rgb: 108, 117, 125;
   --bs-gray-800-rgb: 52, 58, 64;
   --bs-gray-900-rgb: 33, 37, 41;
-  --bs-black-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-qopink-rgb: 196, 136, 164;
   --bs-qoblue-rgb: 44, 187, 245;
@@ -3234,23 +3232,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-black {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #000;
-  --bs-btn-border-color: #000;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: black;
-  --bs-btn-hover-border-color: black;
-  --bs-btn-focus-shadow-rgb: 38, 38, 38;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: black;
-  --bs-btn-active-border-color: black;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #000;
-  --bs-btn-disabled-border-color: #000;
-}
-
 .btn-white {
   --bs-btn-color: #000;
   --bs-btn-bg: #fff;
@@ -3520,23 +3501,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #212529;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #212529;
-  --bs-gradient: none;
-}
-
-.btn-outline-black {
-  --bs-btn-color: #000;
-  --bs-btn-border-color: #000;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #000;
-  --bs-btn-hover-border-color: #000;
-  --bs-btn-focus-shadow-rgb: 0, 0, 0;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #000;
-  --bs-btn-active-border-color: #000;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #000;
   --bs-gradient: none;
 }
 
@@ -5272,15 +5236,6 @@ textarea.form-control-lg {
   color: #101214;
 }
 
-.alert-black {
-  --bs-alert-color: black;
-  --bs-alert-bg: #cccccc;
-  --bs-alert-border-color: #b3b3b3;
-}
-.alert-black .alert-link {
-  color: black;
-}
-
 .alert-white {
   --bs-alert-color: #666666;
   --bs-alert-bg: white;
@@ -5773,20 +5728,6 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #141619;
   border-color: #141619;
-}
-
-.list-group-item-black {
-  color: black;
-  background-color: #cccccc;
-}
-.list-group-item-black.list-group-item-action:hover, .list-group-item-black.list-group-item-action:focus {
-  color: black;
-  background-color: #b8b8b8;
-}
-.list-group-item-black.list-group-item-action.active {
-  color: #fff;
-  background-color: black;
-  border-color: black;
 }
 
 .list-group-item-white {
@@ -7480,11 +7421,6 @@ textarea.form-control-lg {
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-black {
-  color: #fff !important;
-  background-color: RGBA(0, 0, 0, var(--bs-bg-opacity, 1)) !important;
-}
-
 .text-bg-white {
   color: #000 !important;
   background-color: RGBA(255, 255, 255, var(--bs-bg-opacity, 1)) !important;
@@ -7583,13 +7519,6 @@ textarea.form-control-lg {
 }
 .link-gray-900:hover, .link-gray-900:focus {
   color: #1a1e21 !important;
-}
-
-.link-black {
-  color: #000 !important;
-}
-.link-black:hover, .link-black:focus {
-  color: black !important;
 }
 
 .link-white {
@@ -8116,11 +8045,6 @@ textarea.form-control-lg {
 .border-gray-900 {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-gray-900-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-black {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-black-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-white {
@@ -9452,11 +9376,6 @@ textarea.form-control-lg {
   color: rgba(var(--bs-gray-900-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-black {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
-}
-
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
@@ -9485,6 +9404,11 @@ textarea.form-control-lg {
 .text-min_nav {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-min_nav-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-black {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-body {
@@ -9578,11 +9502,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-gray-900-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-black {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
-}
-
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
@@ -9611,6 +9530,11 @@ textarea.form-control-lg {
 .bg-min_nav {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-min_nav-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {
@@ -14028,6 +13952,61 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.box_gradient {
+  position: relative;
+}
+.box_gradient::after {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(to bottom, rgb(234, 234, 234), rgba(234, 234, 234, 0.8), rgba(234, 234, 234, 0.5), rgba(234, 234, 234, 0.3), rgba(234, 234, 234, 0));
+  top: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.box_gradient_blue {
+  position: relative;
+}
+.box_gradient_blue::after {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(to bottom, rgb(18, 34, 57), rgba(18, 34, 57, 0));
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
+
+.box_gradient_black {
+  position: relative;
+}
+.box_gradient_black::after {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+  top: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.box_gradient_blue2 {
+  position: relative;
+}
+.box_gradient_blue2::after {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(to bottom, rgb(3, 100, 168), rgba(3, 100, 168, 0.8), rgba(3, 100, 168, 0.5), rgba(3, 100, 168, 0.3), rgba(3, 100, 168, 0));
+  top: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+}
+
 .navbar-collapse a {
   text-align: center;
   color: black;

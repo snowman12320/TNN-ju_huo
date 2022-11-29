@@ -1,6 +1,9 @@
 <footer class="py-5 bg-white">
   <div class="container border-bottom">
-    <div class="row gx-5 text-center">
+    <!-- gx-5 造成x軸 -->
+    <!-- .gx-* 類別可以用來控制水平 gutter 的寬度。若使用較大的 gutters 且要避免不必要的溢出，則需在 .container 或 .container-fluid 的父層使用匹配的 padding (px-4) -->
+    <!-- 另一種解決方案是使用 .overflow-hidden 包圍 .row : -->
+    <div class="row text-center">
       <div class="col-lg-3 mb-4 d-flex flex-column mb-5">
         <img
           src="./LOGO/巨獲塑膠-LOGO.png"
@@ -10,7 +13,7 @@
         />
         <div class="">
           <a href="#">
-            <i class="fa-brands fa-facebook fs-1 pe-3"> </i>
+            <i class="fa-brands fa-facebook fs-1 pe-3 text-fb"> </i>
           </a>
           <a href="#">
             <i class="fa-brands fa-line fs-1 text-line"> </i>

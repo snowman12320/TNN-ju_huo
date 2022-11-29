@@ -1,5 +1,25 @@
 {
   "liveServer.settings.port": 5501,
   "cSpell.words": ["flexslider", "shopcart"],
-  "commentTranslate.hover.enabled": true
+  "commentTranslate.hover.enabled": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#53dac4",
+    "activityBar.background": "#53dac4",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#c047d7",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#53dac4",
+    "statusBar.background": "#2cceb3",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#23a48e",
+    "statusBarItem.remoteBackground": "#2cceb3",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#2cceb3",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#2cceb399",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#2cceb3"
 }
