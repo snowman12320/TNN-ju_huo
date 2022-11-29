@@ -13,11 +13,11 @@
     &:hover{
         // $shadow:rgba(0, 0, 0, 0.3);
         // box-shadow: 0px 3px 10px 5px $shadow;
-        @include shadow;
+        @include shadow_self;
     }
 }
 @include maxpc(){
-    .navbar-collapse li:last-child{
+    .nav_link_special{
         width: 25%;
     }
 }
