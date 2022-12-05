@@ -1,0 +1,36 @@
+.new_banner {
+    background-image: url("http://www.rofon.com.tw/assets/images/mbr-1-1920x12710.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    height: 100vh;
+    h1 {
+        font-weight: 900 !important;
+    }
+    .banner {
+        position: absolute;
+        background-color: black;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.5;
+    }
+    .text {
+        top: 40%;
+        left: 30%;
+        right: 30%;
+    }
+    .fa-arrow-down{
+        opacity: .5;
+    }
+}
+
+.new_four_card {
+    button {
+        transition: all 0.3s;
+        &:hover {
+            box-shadow: 1px 1px 50px 1px gray;
+        }
+    }
+}

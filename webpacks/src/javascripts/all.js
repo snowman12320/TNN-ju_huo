@@ -4,6 +4,7 @@
 //<script nomodule src="index.js"></script>
 
 $(document).ready(function () {
+  // go top
   function showArrow() {
     if ($(this).scrollTop() > 500) {
       $("#arrow_up").fadeIn();
@@ -12,5 +13,17 @@ $(document).ready(function () {
     }
   }
   $(window).scroll(showArrow);
+
+  // scroll down
+  let height = $(window).height();
+    function showArrowDown() {
+      console.log(height);
+      if ($(this).scrollTop() < height/2) {
+        $("#arrow_down").fadeIn(1000);
+      } else {
+        $("#arrow_down").fadeOut(1000);
+      }
+    }
+    $(window).scroll(showArrowDown);
 });
 
