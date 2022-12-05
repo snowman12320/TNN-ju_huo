@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 @import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
@@ -9663,69 +9669,6 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
-.bgs-cover {
-  background-size: cover !important;
-}
-
-.bgs-contain {
-  background-size: contain !important;
-}
-
-.bgs-50 {
-  background-size: 50% !important;
-}
-
-.bgp-center {
-  background-position: center center !important;
-}
-
-.bgp-bottom {
-  background-position: bottom center !important;
-}
-
-.bgp-top {
-  background-position: top center !important;
-}
-
-.bga-fixed {
-  background-attachment: fixed !important;
-}
-
-.of-cover {
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-.of-contain {
-  -o-object-fit: contain !important;
-     object-fit: contain !important;
-}
-
-.of-fill {
-  -o-object-fit: fill !important;
-     object-fit: fill !important;
-}
-
-.of-none {
-  -o-object-fit: none !important;
-     object-fit: none !important;
-}
-
-.op-right {
-  -o-object-position: right bottom !important;
-     object-position: right bottom !important;
-}
-
-.op-top {
-  -o-object-position: center top !important;
-     object-position: center top !important;
-}
-
-.op-left {
-  -o-object-position: left center !important;
-     object-position: left center !important;
-}
-
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -10551,15 +10494,6 @@ textarea.form-control-lg {
   }
   .text-sm-center {
     text-align: center !important;
-  }
-  .bgp-sm-center {
-    background-position: center center !important;
-  }
-  .bgp-sm-bottom {
-    background-position: bottom center !important;
-  }
-  .bgp-sm-top {
-    background-position: top center !important;
   }
 }
 @media (min-width: 768px) {
@@ -11388,15 +11322,6 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
-  .bgp-md-center {
-    background-position: center center !important;
-  }
-  .bgp-md-bottom {
-    background-position: bottom center !important;
-  }
-  .bgp-md-top {
-    background-position: top center !important;
-  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -12223,15 +12148,6 @@ textarea.form-control-lg {
   }
   .text-lg-center {
     text-align: center !important;
-  }
-  .bgp-lg-center {
-    background-position: center center !important;
-  }
-  .bgp-lg-bottom {
-    background-position: bottom center !important;
-  }
-  .bgp-lg-top {
-    background-position: top center !important;
   }
 }
 @media (min-width: 1200px) {
@@ -13060,15 +12976,6 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
-  .bgp-xl-center {
-    background-position: center center !important;
-  }
-  .bgp-xl-bottom {
-    background-position: bottom center !important;
-  }
-  .bgp-xl-top {
-    background-position: top center !important;
-  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -13895,15 +13802,6 @@ textarea.form-control-lg {
   }
   .text-xxl-center {
     text-align: center !important;
-  }
-  .bgp-xxl-center {
-    background-position: center center !important;
-  }
-  .bgp-xxl-bottom {
-    background-position: bottom center !important;
-  }
-  .bgp-xxl-top {
-    background-position: top center !important;
   }
 }
 @media (min-width: 1200px) {
