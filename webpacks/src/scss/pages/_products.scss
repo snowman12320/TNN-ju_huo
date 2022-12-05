@@ -1,0 +1,47 @@
+.products_banner {
+    background-image: url("../../../../images/輪播圖/sigmund-dBu3wq2O5SM-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    height: 100vh;
+    h1 {
+        font-weight: 900 !important;
+    }
+    .banner {
+        position: absolute;
+        background-color: black;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.5;
+    }
+    .text {
+        top: 40%;
+        left: 30%;
+        right: 30%;
+    }
+    .fa-arrow-down {
+        opacity: 0.5;
+        animation-name: topToDown;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+@keyframes topToDown {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.products_four_card {
+    button {
+        transition: all 0.3s;
+        &:hover {
+            box-shadow: 1px 1px 50px 1px gray;
+        }
+    }
+}
