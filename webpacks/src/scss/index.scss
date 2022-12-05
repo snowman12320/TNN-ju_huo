@@ -1,5 +1,5 @@
 //測試引用BS CDN 有編輯的scss再覆蓋 看是否加速 > 可加速 但無法自訂並覆蓋原始 > 可透過 第9行加速並自訂覆蓋原始
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"); 
+// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css");
 
 ////以下是BS官方的引入順序
 // 先引入函式 再改的變動檔 (只有變數這樣 其他像按鈕那樣引入)  / 不能改變位置
@@ -10,7 +10,7 @@
 // @import "../node_modules/bootstrap/scss/bootstrap";
 //bootstrap 5.2版本 新增了map.scss檔案，只要再匯入進去就可以解決問題 (map也需要使用到變數
 @import "../node_modules/bootstrap/scss/maps";
-//以下就是原始檔全部細項 依照需求引入 不須全部 
+//以下就是原始檔全部細項 依照需求引入 不須全部
 @import "../node_modules/bootstrap/scss/mixins"; //引入總擋了 也可不用
 @import "./utilities"; //引入自訂的 將原始BS的覆蓋 / 不能改變位置
 ////以下到引入第三方CDN 不須引入 因上方有引入總擋
@@ -59,7 +59,7 @@
 //第三方CDN
 @import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap"); //字型
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"); //font-awesome文字格式icon 可連動
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");//bs icon
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"); //bs icon
 //第三方CSS
 // @import "./lightbox.min.css"; //透過 npm 安裝 Lightbox 後，將 lightbox.min.js、lightbox.min.css 及 lightbox 圖片直接複製到其他資料夾，再引入使用(gitpages中用) > 可改用CDN
 // 支援 (自訂檔名)
@@ -70,9 +70,10 @@
 // pages
 @import "./pages/layout";
 @import "./pages/new";
+@import "./pages/contact";
 
-
-*,a{
+*,
+a {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -80,4 +81,3 @@
 html {
   scroll-behavior: smooth;
 }
-

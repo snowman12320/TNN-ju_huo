@@ -1,7 +1,7 @@
-.new_banner {
-    background-image: url("http://www.rofon.com.tw/assets/images/mbr-1-1920x12710.jpg");
+.contact_banner {
+    background-image: url("	http://www.rofon.com.tw/assets/images/mbr-1920x12711.jpg");
     background-size: cover;
-    background-position: bottom center;
+    background-position: right center   ;
     background-attachment: fixed;
     height: 100vh;
     h1 {
@@ -37,11 +37,3 @@
     }
 }
 
-.new_four_card {
-    button {
-        transition: all 0.3s;
-        &:hover {
-            box-shadow: 1px 1px 50px 1px gray;
-        }
-    }
-}

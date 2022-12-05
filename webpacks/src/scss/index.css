@@ -14072,8 +14072,31 @@ footer a {
 }
 .new_banner .fa-arrow-down {
   opacity: 0.5;
+  -webkit-animation-name: topToDown;
+          animation-name: topToDown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
+@-webkit-keyframes topToDown {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes topToDown {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .new_four_card button {
   transition: all 0.3s;
 }
@@ -14081,7 +14104,50 @@ footer a {
   box-shadow: 1px 1px 50px 1px gray;
 }
 
-*, a {
+.contact_banner {
+  background-image: url("	http://www.rofon.com.tw/assets/images/mbr-1920x12711.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.contact_banner h1, .contact_banner .h1 {
+  font-weight: 900 !important;
+}
+.contact_banner .banner {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+.contact_banner .text {
+  top: 40%;
+  left: 30%;
+  right: 30%;
+}
+.contact_banner .fa-arrow-down {
+  opacity: 0.5;
+  -webkit-animation-name: topToDown;
+          animation-name: topToDown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes topToDown {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+*,
+a {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
