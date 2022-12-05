@@ -1,7 +1,7 @@
 .contact_banner {
     background-image: url("	http://www.rofon.com.tw/assets/images/mbr-1920x12711.jpg");
     background-size: cover;
-    background-position: right center   ;
+    background-position: right center;
     background-attachment: fixed;
     height: 100vh;
     h1 {
@@ -37,3 +37,13 @@
     }
 }
 
+.contact_two_box {
+    input,textarea {
+        border-radius: 0;
+        &:focus {
+            // outline: none !important;
+            border-color:  $dark;
+            box-shadow: 0 0 ;
+        }
+    }
+}

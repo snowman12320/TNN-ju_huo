@@ -14146,6 +14146,14 @@ footer a {
     opacity: 1;
   }
 }
+.contact_two_box input, .contact_two_box textarea {
+  border-radius: 0;
+}
+.contact_two_box input:focus, .contact_two_box textarea:focus {
+  border-color: #6c757d;
+  box-shadow: 0 0;
+}
+
 *,
 a {
   box-sizing: border-box;
