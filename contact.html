@@ -67,188 +67,6 @@
       ></i>
     </div>
     <!--  -->
-    <div class="container my-5 contact_two_box">
-      <div class="row row-cols-md-2 row-cols-1 gy-5 overflow-hidden">
-        <div class="col">
-          <div>
-            <iframe
-              class="w-100 flex-grow-0"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14641.039593181693!2d120.4680438!3d23.4510879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35cba7a03f2f5b48!2z5beo56mr5aGR6Iag5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1670225185898!5m2!1szh-TW!2stw"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-        <div class="col">
-          <div>
-            <h2 class="fw-bold">
-              <i class="fa fa-envelope" aria-hidden="true"></i> Don't hesitate
-              to contact us
-            </h2>
-            <div class="my-3">
-              <p class="lh-1">巨獲塑膠有限公司</p>
-              <p class="lh-1">Email: sales@juhuo.com.tw</p>
-              <p class="lh-1">Phone: 0800-000-000</p>
-              <p class="lh-1">Fax: 886-123-123-12</p>
-            </div>
-          </div>
-          <section>
-            <div class="mb-3 row">
-              <div  class="col">
-                <input
-                  type="text"
-                  class="form-control w-100"
-                  name=""
-                  id=""
-                  aria-describedby="helpId"
-                  placeholder="Your Name"
-                />
-              </div>
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control w-100"
-                  name=""
-                  id=""
-                  aria-describedby="helpId"
-                  placeholder="Phone"
-                />
-              </div>
-            </div>
-            <div class="mb-3">
-              <input
-                type="email"
-                class="form-control"
-                name=""
-                id=""
-                aria-describedby="emailHelpId"
-                placeholder="abc@mail.com"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                class="form-control"
-                name=""
-                id=""
-                rows="3"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <a
-              name=""
-              id=""
-              class="btn btn-danger rounded-pill px-5 py-3 fw-bold mx-auto d-block w-75"
-              href="#"
-              role="button"
-              >SEND MESSAGE</a
-            >
-          </section>
-        </div>
-      </div>
-    </div>
-
-    <!--  -->
-    <div w3-include-html="footer-1.html"></div>
-    <!-- 放在include HTML後面 -->
-    <script>
-      includeHTML();
-    </script>
-    <!-- BS of JS  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JQ  -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.js"
-      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-      crossorigin="anonymous"
-    ></script>
-
-    <script></script>
-
-    <script src="./webpacks/src/javascripts/all.js"></script>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>聯絡我們 ｜ 巨獲塑膠 JU HUO</title>
-
-    <link rel="stylesheet" href="./webpacks/src/scss/index.css" />
-  </head>
-  <script>
-    function includeHTML() {
-      var z, i, elmnt, file, xhttp;
-      /*loop through a collection of all HTML elements:*/
-      z = document.getElementsByTagName("*");
-      for (i = 0; i < z.length; i++) {
-        elmnt = z[i];
-        /*search for elements with a certain atrribute:*/
-        file = elmnt.getAttribute("w3-include-html");
-        if (file) {
-          /*make an HTTP request using the attribute value as the file name:*/
-          xhttp = new XMLHttpRequest();
-          xhttp.onreadystatechange = function () {
-            if (this.readyState == 4) {
-              if (this.status == 200) {
-                elmnt.innerHTML = this.responseText;
-              }
-              if (this.status == 404) {
-                elmnt.innerHTML = "Page not found.";
-              }
-              /*remove the attribute, and call this function once more:*/
-              elmnt.removeAttribute("w3-include-html");
-              includeHTML();
-            }
-          };
-          xhttp.open("GET", file, true);
-          xhttp.send();
-          /*exit the function:*/
-          return;
-        }
-      }
-    }
-  </script>
-
-  <body>
-    <div w3-include-html="navbar-1.html"></div>
-    <!-- 放在include HTML後面 -->
-    <script>
-      includeHTML();
-    </script>
-    <!--  -->
-
-    <div class="position-relative contact_banner">
-      <div class="banner"></div>
-      <div class="position-absolute text">
-        <div class="">
-          <h1 class="text-white display-3">CONTANCT US</h1>
-          <div class="fs-3 text-white">
-            我們堅持客戶至上，品質第一為原則，竭誠為廣大客戶服務!
-          </div>
-        </div>
-      </div>
-      <i
-        id="arrow_down"
-        class="fa fa-arrow-down bg-white position-absolute p-3 fs-5 rounded-circle bottom-0 end-50 mb-8"
-        aria-hidden="true"
-      ></i>
-    </div>
-    <!--  -->
     <div class="container my-5">
       <div class="row row-cols-md-2 row-cols-1 gy-5 overflow-hidden">
         <div class="col">
@@ -278,26 +96,29 @@
               <p class="lh-1">Fax: 886-123-123-12</p>
             </div>
           </div>
-          <section>
+          <form class="needs-validation" novalidate>
             <div class="mb-3 row">
-              <div  class="col">
-                <input
-                  type="text"
-                  class="form-control w-100"
-                  name=""
-                  id=""
-                  aria-describedby="helpId"
-                  placeholder="Your Name"
-                />
-              </div>
               <div class="col">
                 <input
                   type="text"
                   class="form-control w-100"
-                  name=""
+                  name="name"
+                  id=""
+                  aria-describedby="helpId"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="tel"
+                  class="form-control w-100"
+                  name="phone"
                   id=""
                   aria-describedby="helpId"
                   placeholder="Phone"
+                  pattern="[0-9]{10}"
+                  required
                 />
               </div>
             </div>
@@ -305,30 +126,33 @@
               <input
                 type="email"
                 class="form-control"
-                name=""
+                name="email"
                 id=""
                 aria-describedby="emailHelpId"
                 placeholder="abc@mail.com"
+                required
               />
             </div>
             <div class="mb-3">
               <textarea
                 class="form-control"
-                name=""
+                name="textarea"
                 id=""
                 rows="3"
                 placeholder="Message"
+                required
               ></textarea>
+              <div class="invalid-feedback">
+                Please enter a message in the textarea.
+              </div>
             </div>
-            <a
-              name=""
-              id=""
+            <button
               class="btn btn-danger rounded-pill px-5 py-3 fw-bold mx-auto d-block w-75"
-              href="#"
-              role="button"
-              >SEND MESSAGE</a
+              type="submit"
             >
-          </section>
+              SEND MESSAGE
+            </button>
+          </form>
         </div>
       </div>
     </div>
@@ -356,9 +180,8 @@
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
       crossorigin="anonymous"
     ></script>
-
     <script></script>
 
-    <script src="./webpacks/src/javascripts/all.js"></script>
+    <script src="./webpacks/src/javascripts/all.js" defer></script>
   </body>
 </html>

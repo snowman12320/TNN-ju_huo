@@ -19,7 +19,7 @@
         file = elmnt.getAttribute("w3-include-html");
         if (file) {
           /*make an HTTP request using the attribute value as the file name:*/
-          xhttp = products XMLHttpRequest();
+          xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function () {
             if (this.readyState == 4) {
               if (this.status == 200) {
@@ -72,14 +72,65 @@
         例如: 腳踏車相關配件、機車零配件 、汽車內外裝零配件
         、汽車百貨用品、交通器材及號誌塑件等。
       </p>
-      <img
-        src="http://www.rofon.com.tw/assets/images/03-2-3000x2045.jpg"
-        alt=""
-        srcset=""
-        class="w-100"
-      />
+      <div class="row">
+        <div class="row row-cols-3 g-3 ">
+          <div class="col">
+            <div>
+              <img
+                class="w-100 border-1 border"
+                src="images\輪播圖\car.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img
+                class="w-100 border-1 border"
+                src="images\輪播圖\car2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img
+                class="w-100 border-1 border"
+                src="images\輪播圖\car3.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 ">
+          <div class="col-4 d-flex flex-column justify-content-between">
+            <div class="">
+              <img
+                class="w-100 border-1 border"
+                src="images\輪播圖\car4.png"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <img
+                class="w-100 border-1 border"
+                src="images\輪播圖\car5.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <img
+                class="w-100 border-1 border"
+                src="images\輪播圖\car6.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
     <!--  -->
     <div w3-include-html="footer-1.html"></div>
     <!-- 放在include HTML後面 -->

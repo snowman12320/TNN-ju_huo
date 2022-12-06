@@ -14130,7 +14130,7 @@ footer a {
   transition: all 0.3s;
 }
 .new_four_card button:hover {
-  box-shadow: 1px 1px 50px 1px gray;
+  box-shadow: inset 0px 0px 0px -100px #ababab, 0px 0px 50px -20px #242424;
 }
 
 .contact_banner {
