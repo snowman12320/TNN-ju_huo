@@ -13,19 +13,19 @@
 
 // 引入到SCSS
 @mixin shadow_self {
-    // box-shadow: x-位移 y-位移 blur-模糊值(實心1 > 10 模糊) spread-擴散值(範圍1-10) color-顏色(第四個透明度) inset-是否在內側(染色感)
-    $shadow:rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 3px 10px 5px $shadow;
-    //NBA button
-    // box-shadow: 0 10px 1px $shadow;
+  // box-shadow: x-位移 y-位移 blur-模糊值(實心1 > 10 模糊) spread-擴散值(範圍1-10) color-顏色(第四個透明度) inset-是否在內側(染色感)
+  $shadow: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 30px 1px $shadow;
+  //NBA button
+  // box-shadow: 0 10px 1px $shadow;
 }
 // 或直接用class
 .shadow_self {
-    // box-shadow: x-位移 y-位移 blur-模糊值(實心1 > 10 模糊) spread-擴散值(範圍1-10) color-顏色(第四個透明度) inset-是否在內側(染色感)
-    $shadow:rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 3px 10px 5px $shadow;
-    //NBA button
-    // box-shadow: 0 10px 1px $shadow;
+  // box-shadow: x-位移 y-位移 blur-模糊值(實心1 > 10 模糊) spread-擴散值(範圍1-10) color-顏色(第四個透明度) inset-是否在內側(染色感)
+  $shadow: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 10px 5px $shadow;
+  //NBA button
+  // box-shadow: 0 10px 1px $shadow;
 }
 
 // 大 按鈕正常 小 按鈕放大100%
